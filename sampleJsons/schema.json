@@ -3,7 +3,7 @@
     "children": [{
         "name": "complexType",
         "children": [{
-            "name": "0",
+            "name": "BORROWER",
             "children": [{
                 "name": "sequence",
                 "children": [{
@@ -30,11 +30,9 @@
                         "name": "HARDSHIP_DECLARATION"
                     }]
                 }]
-            }, {
-                "name": "BORROWER"
             }]
         }, {
-            "name": "1",
+            "name": "BORROWER_DETAIL",
             "children": [{
                 "name": "sequence",
                 "children": [{
@@ -61,8 +59,6 @@
                         "name": "BorrowerMailToAddressSameAsPropertyIndicator"
                     }]
                 }]
-            }, {
-                "name": "BORROWER_DETAIL"
             }]
         }]
     }]
